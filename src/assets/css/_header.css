@@ -1,0 +1,16 @@
+.site-header {
+  height: 70px;
+  background-color: #41848f;
+  color: #fff;
+  font-size: 24px;
+  padding: 0 90px;
+}
+
+.site-header .navbar-brand {
+
+}
+
+.site-header .navbar-link {
+  font-size: 24px;
+  font-weight: 400;
+}
