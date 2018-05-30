@@ -1,0 +1,61 @@
+.box {
+  color: $white;
+  margin: 0 15px 50px;
+
+  .box-title {
+    background-color: $grey-green;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+
+    h4 {
+      font-size: 1.1rem;
+    }
+  }
+
+  .box-content {
+    padding: 25px 15px;
+    font-size: 0.9rem;
+  }
+
+  .list-todo {
+    margin-bottom: 0;
+    list-style: square;
+  }
+
+  .todo-item {
+    &.done {
+      opacity: 0.5;
+      text-decoration: line-through;
+    }
+  }
+
+  .btn-add {
+    padding-left: 23px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    color: #000;
+
+    span {
+      cursor: pointer;
+    }
+  }
+}
+
+.box-1 {
+  background-color: $red;
+}
+
+.box-2 {
+  background-color: $green;
+}
+
+.box-3 {
+  background-color: $blue;
+}
+
+.box-4 {
+  background-color: $yellow;
+}
